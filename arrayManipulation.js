@@ -31,3 +31,5 @@ function formatArrayString([...array], [...processA]){
 }
 
 console.log(formatArrayString(["enock", "samuel", "babe", "frank"], [1, 2, 3, 4]))
+
+module.exports = formatArrayString;
